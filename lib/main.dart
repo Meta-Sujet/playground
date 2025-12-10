@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
-        title: Text(widget.title),
+        title: Text(widget.title,style: TextStyle(color: Colors.white),),
       ),
       body: Center(
         child: Column(
