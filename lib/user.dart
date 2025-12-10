@@ -6,5 +6,5 @@ class User {
   @override
   String toString() {
     return "$name id is: $id";
-  }
+  } 
 }
