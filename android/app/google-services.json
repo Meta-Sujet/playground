@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1081615758678",
+    "firebase_url": "https://shop-app-b01ec-default-rtdb.firebaseio.com",
+    "project_id": "shop-app-b01ec",
+    "storage_bucket": "shop-app-b01ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081615758678:android:5ddf7d793e188c538f92f7",
+        "android_client_info": {
+          "package_name": "com.example.playground"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKsJmYBePTNu59l4f9nWUl6TuuKVxYOM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
