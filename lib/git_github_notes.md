@@ -1,0 +1,78 @@
+# Git-Github notes
+
+git --version
+git config user.name 
+git config user.email 
+git config --global user.name sujet
+git config --global user.email meta.sujet@gmail.com
+git init 
+git status
+git add .   <- add all to staging area
+git reset   <- unstage all
+git commit -m "description ...."
+git restore lib/main.dart  < - to discard changes in working directory
+git log
+git log --oneline 
+
+*** undoing things ***
+git checkout 87ba76c
+git checkout master 
+git checkout -b new-branch     # Create & switch to a new branch
+git revert 9284a42              //  esc ->  shift :wq   enter
+git reset 9284a42               // cashlis log-s magram datovebs fails
+git reset 9284a42 --hard        // cashlis fails
+
+*** branches ***
+git branch feature-1 
+git checkout feature-1
+git branch -a  // branches list 
+git checkout -b new-branch     # Create & switch to a new branch
+git branch -d branch_name   //delete if merged 
+git branch -D branch_name   //If the branch is not merged and you still want to delete it:
+git merge feature-1   // roca master branchze vart iqidan 
+
+
+git push https://github.com/Meta-Sujet/playground.git master 
+git remote add origin https://github.com/Meta-Sujet/playground.git
+git push origin feature-1-branch
+git push origin master
+git push -u origin master  // Link my local master branch to the remote origin/master branch.”So next time you can simply run:
+ git push
+ git pull
+
+git remote -v  
+git remote set-url origin https://github.com/Meta-Sujet/playground.git  //If you just want to change the remote URL
+
+git clone https://github.com/Meta-Sujet/playground.git
+git pull origin master
+
+
+
+mkdir newFolder
+touch text.txt
+rm text.txt
+rmdir newFolder
+rmdir /s /q tst
+C:\Users\vakog\Desktop\playground
+start .   //open folder
+
+
+**HEY**
+1. asd
+2. asd
+
+
+```dart
+// Example: How to use a Completer
+final completer = Completer<int>();
+
+Future<int> getNumber() async {
+  completer.complete(10);
+  return completer.future;
+}
+```
+
+
+
+
+
